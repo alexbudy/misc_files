@@ -1,0 +1,19 @@
+[alias]
+	st = status -s
+	co = checkout
+	commitamno = commit --amend --no-edit
+    p = push
+    pf = push --force
+    br = branch
+[user]
+	email = alexbudy@gmail.com
+	name = Alex Budilovsky
+[push]
+	default = simple
+[credential]
+	helper = wincred
+[core]
+	autocrlf = false
+	editor = vim
+[filter "gitignore"]
+	clean = sed
